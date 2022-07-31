@@ -1,0 +1,61 @@
+<style> @font-face {
+    font-family: Poppins;
+    src: url(https://fonts.google.com/specimen/Poppins);
+}
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-image: url("bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+    color: hsl(0, 100%, 100%);
+    justify-content: center;
+    align-content: ;
+}
+
+.try {
+     width: 100%;
+     height: 3em;
+     background-color: hsl(246, 59%, 53%);
+     box-sizing: border-box;
+     border-radius: 5px;
+     border: 1px solid hsl(246, 59%, 53%);
+     justify-items: center;
+ }
+
+.form {
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0,0.26);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border: 1px solid #fff;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .btn {
+    width: 80%;
+    padding: 10px;
+    margin: 20px;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    border: 1px solid hsl(154, 59%, 51%);
+    align-items: center;
+    color: hsl(0, 100%, 100%);
+ }
+
+.tms {
+    color: hsl(246, 25%, 77%);
+}
